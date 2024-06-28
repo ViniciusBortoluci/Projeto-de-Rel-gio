@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+    --color-dark: #000000;
+    --color-white: #ffffff;
+    --color-orange: rgb(255, 124, 2);
+    --color-ligth: rgb(171, 171, 171);
+}
+
+* {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+
+    font-family: .ubuntu-light {
+        font-family: "Ubuntu", sans-serif;
+    };
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 16px;
+}
+
+.clock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.clock span {
+    font-size: 300px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.clock span:not(:last-child)::after {
+    content: ':';
+    margin-bottom: 25px;
+    color: var(--color-ligth);
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--color-orange);
+}
+
+h2 strong {
+    color: var(--color-orange)
+}
