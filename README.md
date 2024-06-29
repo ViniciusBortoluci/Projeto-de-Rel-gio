@@ -1,6 +1,8 @@
 # Projeto de um relógio 
-Primeiro projeto com um relogio automático
-[<img src="./img/Animação.gif" alt="Animação do relógio funcionando">]
+Projeto com um relogio automático bem legal, visto no canal @gutoneitzke!
+
+
+<img src="./img/Animação.gif" alt="Animação do relógio funcionando">
 
 # Tecnologias utilizadas:
  - HTML
